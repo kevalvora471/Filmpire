@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import './App.css';
 import searchIcon from './assets/search.svg'
 import MovieCard from "./components/MovieCard";
-const API_URL = 'http://www.omdbapi.com?apikey=c032e2d7';
+const API_URL = 'https://www.omdbapi.com?apikey=c032e2d7';
 import { PuffLoader } from "react-spinners";
 
 function App() {
